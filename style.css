@@ -6,6 +6,10 @@ body {
   height: 100vh;
   background-attachment: fixed;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .main-page {
   padding-top: 22rem;
 }
@@ -24,9 +28,9 @@ body {
   margin: 0;
 }
 .tem {
-  position: absolute;
+  /* position: absolute;
   top: 23rem;
-  left: 15rem;
+  left: 15rem; */
   font-size: 22px;
 }
 .para {
@@ -58,4 +62,56 @@ body {
   cursor: pointer;
   color: #fff;
   font-size: 15px;
+}
+.hyp {
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 120px;
+}
+.sun {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 0.5rem;
+  align-items: center;
+  padding-top: 60px;
+}
+.out {
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1rem;
+}
+.day {
+  padding: 10px 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.num {
+  margin: 0;
+  padding: 0;
 }
