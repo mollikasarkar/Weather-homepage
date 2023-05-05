@@ -1,0 +1,61 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1580655223890-319b5b8918c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.main-page {
+  padding-top: 22rem;
+}
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 1rem;
+
+  color: #fff;
+}
+.tim {
+  font-size: 90px;
+  margin: 0;
+}
+.tem {
+  position: absolute;
+  top: 23rem;
+  left: 15rem;
+  font-size: 22px;
+}
+.para {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 1rem;
+}
+.extra {
+  color: #fff;
+  font-size: 18px;
+}
+.font {
+  color: #100e0e;
+  font-size: 16px;
+}
+.buttons {
+  background-color: ;
+}
+.btn {
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+}
