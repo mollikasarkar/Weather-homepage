@@ -7,7 +7,7 @@ body {
   background-attachment: fixed;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 .main-page {
@@ -114,4 +114,167 @@ body {
 .num {
   margin: 0;
   padding: 0;
+}
+.cof {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 0.5rem;
+  align-items: center;
+}
+.coffee {
+  color: #fff;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.food {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.bur {
+  background-image: url(https://bakeitwithlove.com/wp-content/uploads/2021/05/McDonalds-The-Travis-Scott-Burger-sq.jpg.webp),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  min-height: 300px;
+  background-position: center;
+  border-radius: 15px;
+}
+.ice {
+  background-image: url(https://www.recipetineats.com/wp-content/uploads/2023/01/Rum-and-raisin-ice-cream-in-cone.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  min-height: 300px;
+  background-position: center;
+  border-radius: 15px;
+}
+.pizza {
+  background-image: url(https://www.kingarthurbaking.com/sites/default/files/styles/featured_image_2x/public/2022-03/Easiest-Pizza_22-2_11.jpg?itok=MlGWxXsI),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  min-height: 300px;
+  background-position: center;
+  border-radius: 15px;
+}
+.bbq {
+  background-image: url(https://www.pinoycookingrecipes.com/uploads/7/6/7/8/7678114/editor/img-1625458983560-1.png?1626125955),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  min-height: 300px;
+  background-position: center;
+  border-radius: 15px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+
+  height: 100%;
+  margin-top: auto;
+
+  padding-right: 1rem;
+}
+
+.parag {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.paragr {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #42a5f5;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+.what {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 1rem;
+}
+.app {
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+.weather {
+  background-image: url(https://images.pexels.com/photos/7452447/pexels-photo-7452447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.math {
+  background-image: url(https://wallpapers.com/images/high/basic-black-and-white-calculator-ap38v4tgv731d8qn.webp);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.bank {
+  background-image: url(https://thumbs.dreamstime.com/z/hand-little-girl-tree-growing-pile-coins-34500288.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.travel {
+  background-image: url(https://www.cdc.gov/nceh/radiation/images/AirplaneWing.jpg?_=97204);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.game {
+  background-image: url(https://target.scene7.com/is/image/Target/GUEST_bdc70c48-04c9-4341-84ba-92e2614807ec?qlt=85&fmt=webp&hei=325&wid=325);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.chat {
+  background-image: url(https://www.popsci.com/uploads/2020/06/25/hand-holding-phone-with-ongoing-videocall.jpg?auto=webp);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.paragra {
+  color: #fff;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(17, 125, 161);
 }
