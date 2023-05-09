@@ -46,9 +46,7 @@ body {
   color: #100e0e;
   font-size: 16px;
 }
-.buttons {
-  background-color: ;
-}
+
 .btn {
   padding: 10px 30px;
   border-radius: 50px;
@@ -209,6 +207,7 @@ body {
   flex-direction: row;
   align-items: center;
   grid-gap: 1rem;
+  padding-top: 35px;
 }
 .app {
   color: #fff;
@@ -221,7 +220,9 @@ body {
   grid-gap: 1rem;
 }
 .weather {
-  background-image: url(https://images.pexels.com/photos/7452447/pexels-photo-7452447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-image: url(https://images.pexels.com/photos/7452447/pexels-photo-7452447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -229,7 +230,9 @@ body {
   border-radius: 15px;
 }
 .math {
-  background-image: url(https://wallpapers.com/images/high/basic-black-and-white-calculator-ap38v4tgv731d8qn.webp);
+  background-image: url(https://wallpapers.com/images/high/basic-black-and-white-calculator-ap38v4tgv731d8qn.webp),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -237,7 +240,9 @@ body {
   border-radius: 15px;
 }
 .bank {
-  background-image: url(https://thumbs.dreamstime.com/z/hand-little-girl-tree-growing-pile-coins-34500288.jpg);
+  background-image: url(https://thumbs.dreamstime.com/z/hand-little-girl-tree-growing-pile-coins-34500288.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -245,7 +250,9 @@ body {
   border-radius: 15px;
 }
 .travel {
-  background-image: url(https://www.cdc.gov/nceh/radiation/images/AirplaneWing.jpg?_=97204);
+  background-image: url(https://www.cdc.gov/nceh/radiation/images/AirplaneWing.jpg?_=97204),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -253,7 +260,9 @@ body {
   border-radius: 15px;
 }
 .game {
-  background-image: url(https://target.scene7.com/is/image/Target/GUEST_bdc70c48-04c9-4341-84ba-92e2614807ec?qlt=85&fmt=webp&hei=325&wid=325);
+  background-image: url(https://target.scene7.com/is/image/Target/GUEST_bdc70c48-04c9-4341-84ba-92e2614807ec?qlt=85&fmt=webp&hei=325&wid=325),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -261,7 +270,9 @@ body {
   border-radius: 15px;
 }
 .chat {
-  background-image: url(https://www.popsci.com/uploads/2020/06/25/hand-holding-phone-with-ongoing-videocall.jpg?auto=webp);
+  background-image: url(https://www.popsci.com/uploads/2020/06/25/hand-holding-phone-with-ongoing-videocall.jpg?auto=webp),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -272,9 +283,76 @@ body {
   color: #fff;
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 .paragraph {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(17, 125, 161);
+}
+.tex {
+  padding: 0 0 0 20px;
+}
+.corn {
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 0.5rem;
+  padding-top: 35px;
+}
+.sec2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  height: 500px;
+}
+.some {
+  background-image: url(https://images.unsplash.com/photo-1596727147705-61a532a659bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.some1 {
+  background-image: url(https://images.unsplash.com/photo-1596727147705-61a532a659bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.some2 {
+  background-image: url(https://images.unsplash.com/photo-1535666669445-e8c15cd2e7d9?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9yZCUyMG9mJTIwdGhlJTIwcmluZ3N8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60&quot);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.some3 {
+  background-image: url(https://images.unsplash.com/photo-1632266484284-a11d9e3a460a?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhcnJ5JTIwcG90dGVyfGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60&quot;);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.some4 {
+  background-image: url(https://images.unsplash.com/photo-1533613220915-609f661a6fe1?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhciUyMHdhcnN8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60&quot);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
 }
