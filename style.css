@@ -13,6 +13,12 @@ body {
 .main-page {
   padding-top: 22rem;
 }
+@media (max-width: 600px) {
+  .main-page {
+    width: 90%;
+    padding: 0;
+  }
+}
 .main {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -20,9 +26,9 @@ body {
   display: flex;
   flex-direction: row;
   grid-gap: 1rem;
-
   color: #fff;
 }
+
 .tim {
   font-size: 90px;
   margin: 0;
@@ -45,6 +51,13 @@ body {
 .font {
   color: #100e0e;
   font-size: 16px;
+}
+@media (max-width: 600px) {
+  .buttons {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1rem;
+  }
 }
 
 .btn {
@@ -97,6 +110,13 @@ body {
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 1rem;
 }
+@media (max-width: 600px) {
+  .week {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
 .day {
   padding: 10px 30px;
   border-radius: 10px;
@@ -131,6 +151,16 @@ body {
   border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+}
+@media (max-width: 600px) {
+  .food {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
 }
 .bur {
   background-image: url(https://bakeitwithlove.com/wp-content/uploads/2021/05/McDonalds-The-Travis-Scott-Burger-sq.jpg.webp),
@@ -195,6 +225,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .paragr {
   font-family: Arial, Helvetica, sans-serif;
   color: #42a5f5;
@@ -202,6 +233,17 @@ body {
   margin: 0;
   padding-bottom: 1rem;
 }
+@media (max-width: 600px) {
+  .paragr {
+    color: #42a5f5;
+    font-size: 5px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+}
+
 .what {
   display: flex;
   flex-direction: row;
@@ -214,6 +256,7 @@ body {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .sec {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -285,11 +328,28 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 0px;
 }
+@media (max-width: 600px) {
+  .paragra {
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+  }
+}
 .paragraph {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(17, 125, 161);
   margin-bottom: 0;
+}
+@media (max-width: 600px) {
+  .paragraph {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(220, 129, 9);
+    margin-bottom: 0;
+  }
 }
 .tex {
   padding: 0 0 0 20px;
@@ -311,6 +371,14 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   height: 500px;
+}
+@media (max-width: 600px) {
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+  }
 }
 .some {
   background-image: url(https://images.unsplash.com/photo-1596727147705-61a532a659bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
@@ -363,6 +431,14 @@ body {
   margin-left: 35px;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 600px) {
+  .tale {
+    color: #fff;
+    height: 400px;
+    margin-left: 35px;
+    padding: 0 auto;
+    
 }
 .way {
   font-size: 35px;
